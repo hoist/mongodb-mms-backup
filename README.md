@@ -2,11 +2,11 @@ mongodb-mms-backup docker container
 ==================
 
 A simple mongdb-mms-backup agent docker image
-(derived from (tianon/mongodb-mms)[https://registry.hub.docker.com/u/tianon/mongodb-mms/] )
+(derived from [tianon/mongodb-mms](https://registry.hub.docker.com/u/tianon/mongodb-mms/) )
 
 Running
 ===
-docker run -d -e API_KEY={YOUR_API_KEY} fruitl00p/mongodb-mms-backup
+docker run -d -e API_KEY={YOUR_API_KEY} gekkie/mongodb-mms-backup
 
 Configuration
 ===
