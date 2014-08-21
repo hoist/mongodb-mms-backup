@@ -15,7 +15,7 @@ ADD resources/ /
 
 ####
 # Install Agent itself
-RUN curl -sSL https://mms.mongodb.com/download/agent/backup/mongodb-mms-backup-agent_2.3.0.154-1_amd64.deb -o mms.deb && \
+RUN curl -sSL https://mms.mongodb.com/download/agent/backup/mongodb-mms-backup-agent_2.4.0.156-1_amd64.deb -o mms.deb && \
 	dpkg -i mms.deb && \
 	rm mms.deb
 
