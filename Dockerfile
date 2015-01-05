@@ -8,7 +8,7 @@ MAINTAINER Kingsquare <docker@kingsquare.nl>
 
 ####
 # Install Agent itself
-RUN curl -sSL https://mms.mongodb.com/download/agent/backup/mongodb-mms-backup-agent_2.9.0.223-1_amd64.deb -o mms.deb && \
+RUN curl -sSL https://mms.mongodb.com/download/agent/backup/mongodb-mms-backup-agent_2.9.1.235-1_amd64.deb -o mms.deb && \
 	dpkg -i mms.deb && \
 	rm mms.deb
 
